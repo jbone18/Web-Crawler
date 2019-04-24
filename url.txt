@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/extensions/vendor/bolt/simpleforms/assets/simpleforms.css" media="screen">
+    <link rel="shortcut icon" href="/theme/irongoat/favicon2.png">	    
+        <title>
+                    Our Beers |                 Iron Goat Brewing
+                        </title>
+
+
+    <!-- META -->
+        
+
+    <!-- SCHEMA -->
+    
+
+    <!-- CSS -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="/theme/irongoat/css/magnific-popup.css">
+
+
+    <link rel="stylesheet" href="/theme/irongoat/global.css">
+
+
+    <!-- JAVASCRIPT -->
+
+    
+	<meta name="generator" content="Bolt">
+	<link rel="canonical" href="http://www.irongoatbrewing.com/our-beers">
+</head>
+<body>
+
+
+<nav>
+    <div class="navbar navbar-default">
+        <div id="nav" class="navbar-collapse nav">
+            <div class="nav-menu">
+                <ul>
+                                        
+
+                    <li class="index-1 first current">
+        <a href="/our-beers" title=''           class=''>
+            Our Beers        </a>
+            </li>
+
+                        <li class="index-2">
+        <a href="/taproom" title=''           class=''>
+            The Taproom        </a>
+            </li>
+
+                        <li class="index-3">
+        <a href="/brewery" title=''           class=''>
+            The Brewery        </a>
+            </li>
+
+                        <li class="index-4 last">
+        <a href="/contact" title=''           class=''>
+            Contact        </a>
+            </li>
+
+    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header-address">
+        1302 W 2nd Ave Spokane, WA 99201 | Daily, 11am-Close
+    </div>
+</nav>
+
+        <header class="small">
+        <a href="/" class="logo-link" title="Iron Goat"><img src="/theme/irongoat/images/logo-black.png" alt="Iron Goat Brewing Co. Spokane Wa"></a>
+        <div id="parallax-fallback"></div>
+        <div id="parallax-banner">
+                        <div class="banner-layer" id="layer2" data-rate=".89"></div>
+            <div class="banner-layer" id="layer3" data-rate=".65"></div>
+            <div class="banner-layer" id="layer4" data-rate=".45"></div>
+            <div class="" id="ground-layer"></div>
+        </div>
+    </header>
+
+
+
+    <div class="header-divide"></div>
+    <div class="container content-pad">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 main-content">
+                
+                                                            
+                <div class="col-sm-10 col-sm-offset-1">
+                <h1>Our Beers</h1>
+
+                
+
+                                                                                <h2 class="category-h">Standard</h2>
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/buzzsaw-mcthunder-juicy-ipa">Buzzsaw McThunder Juicy IPA</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">6.8</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">70</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>Pale gold with a slight haze, this Juicy India Pale Ale boasts bold aromas of grapefuit and pineapple with hints of mango, papaya, and citrus pith. It finishes clean and slightly heavy with a mild lingering bitterness.</p>
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/brick-steel-ipa">Brick & Steel IPA</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">5.6</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">67</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>Our brewery was founded on a mutual love of old brick, shiny steel and hops. This slightly hazy, gold-colored IPA has big, dank pineapple and grapefruit aromas along with tropical and citrus fruit flavors. Finishing dry, with a pleasant lingering bitterness, Brick and Steel IPA is a beer as solid as its name.</p>
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                            <div class="large-4 imageholder">
+                                            <br>
+                                            <a href="/beer/goatmeal-stout"><img src="/thumbs/200x300r/2016-03/igb-beer121614img-0035.jpg" width="200" height="300" alt=""></a>
+                                        </div>
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/goatmeal-stout">Goatmeal Stout</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">5.6</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">23</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>An austere buck, the Goatmeal pours pure chocolate brown, with a thick mocha-colored head. Dark and delicate notes of espresso and cocoa swirl lusciously on the tongue, gliding smoothly to a sweet-dry finish.</p>
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                            <div class="large-4 imageholder">
+                                            <br>
+                                            <a href="/beer/head-butt-ipa"><img src="/thumbs/200x300r/igb-beer121614img-0042.jpg" width="200" height="300" alt=""></a>
+                                        </div>
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/head-butt-ipa">Head Butt IPA</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">6.7</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">90</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>This playful, golden-colored IPA charges your tongue with a barrage of hoppy spice, frisky fresh fruit and citrus-like flavors from the New Zealand Motueka hop. It then finishes you off with a vigorous hop kick, disappearing briskly from the palate.</p>
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                            <div class="large-4 imageholder">
+                                            <br>
+                                            <a href="/beer/the-impaler-imperial-ipa"><img src="/thumbs/200x300r/igb-beer121614img-0049.jpg" width="200" height="300" alt=""></a>
+                                        </div>
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/the-impaler-imperial-ipa">The Impaler Imperial IPA</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">8.5</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">72</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            Our first brew, this imperial IPA stakes its claim with a citrusy aroma and fruity hop flavors brought by its main protagonist: the Australian Galaxy hop. With skillful balance and a dry finish, the Impaler will render your palate helplessly conquered.
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/esb">Let It ESB</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">5.3</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">25</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>Extra Special Bitter</p>
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                            <div class="large-4 imageholder">
+                                            <br>
+                                            <a href="/beer/trashy-blonde"><img src="/thumbs/200x300r/igb-beer121614img-0041.jpg" width="200" height="300" alt=""></a>
+                                        </div>
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/trashy-blonde">Trashy Blonde</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">5</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">38</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>Easy on the eyes and crisp on the tongue, this blonde will keep you coming back for more. Slight hop bitterness couples nicely with hints of Valencia orange, not-to-sweet honey notes and a medium-dry finish.</p>
+                                                                    </div>
+                            </div>
+
+                                                <br>
+                                                                                                    <h2 class="category-h">Seasonal</h2>
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/cap-n-kidd-scotch-ale">Cap'n Kidd Scotch Ale</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">7.5</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">37</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            This Wee Heavy is coppery brown, rich and malty with a hint of sweetness from the caramelization process and herbal tones from a heather addition. This popular fall seasonal is not to be missed.
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/blackberry-apricot-sour-ale">Blackberry Apricot Sour Ale</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">6.5</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">16</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            An American Style Sour with Blackberry and Apricot. It finishes crisp and clean with a subtle fruit finish.
+                                                                    </div>
+                            </div>
+
+                                                <br>
+                                                                                                                                                    
+
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+<div class="beer-background">
+    <div class="beer-bubbles">
+        <div class="beer-head"></div>
+        
+                <div class="tap-room">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="/thumbs/450x300r/2016-06/pizza.jpg" width="450" height="300" alt="">
+                    </div>
+                    <div class="col-md-7">
+                        <h1>The Tap Room</h1>
+                        <p>Visit our Taproom where you'll find all of our main beers and a few that you can only get in our taproom.  You can also enjoy some great pizzas, sandwiches, sideboards, soups, and salads. </p>
+
+<p>See more details on our <a href="/taproom">Taproom page</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div class="container">
+            <div class="col-sm-7 col-sm-offset-5">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img src="/theme/irongoat//images/badge-logo.png" alt="Iron Goat Brewery - Here's To You!">
+                    </div>
+                    <div class="col-xs-8">
+                        1302 W 2nd Avenue
+                        <br>
+                        Spokane, WA 99201
+                        <br>
+                        <a href="https://www.google.com/maps?q=1302 W 2nd Avenue Spokane WA 99201"><i class="fa fa-map-marker"></i></a>
+                        <a href="mailto:info@irongoatbrewing.com"><i class="fa fa-envelope-square fa-fw"></i></a>
+                        <a href="https://twitter.com/irongoatbrewing"><i class="fa fa-twitter-square fa-fw"></i></a>
+                        <a href="https://facebook.com/irongoatbrewing"><i class="fa fa-facebook-square fa-fw"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-parallax-fallback"><div class="inner-fallback"></div></div>
+    <div id="footer-parallax-banner">
+        <div class="banner-layer" id="layer1" data-rate=".30"></div>
+        <div class="banner-layer" id="layer2" data-rate=".20"></div>
+        <div class="banner-layer" id="layer3" data-rate=".10"></div>
+    </div>
+</footer>
+<div class="copyright">
+    <div class="container text-center">
+        &copy;2019 Iron Goat Brewing&nbsp;&nbsp;&nbsp;&nbsp;
+        Design copyright &copy;2019, &nbsp;<a href="https://designspike.com"><img src="/theme/irongoat/images/ds-logo.jpg" alt="Design Spike, Inc."></a> Hosted by <a href="https://www.digitimber.com/">DigiTimber</a>
+    </div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.0.6/jquery.mousewheel.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="/theme/irongoat/javascripts/modernizr.js"></script>
+<script src="/theme/irongoat/javascripts/jquery.simplr.smoothscroll.js"></script>
+
+<script src="/theme/irongoat/javascripts/jquery.magnific-popup.min.js"></script>
+
+<script src="//cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="/theme/irongoat/javascripts/age-verification.js"></script>
+
+<script src="/theme/irongoat/javascripts/app.js" async defer></script>
+
+</body>
+</html>
