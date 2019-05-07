@@ -9,23 +9,23 @@ class Websites:
         #pub website objects for each base URL
         # http://www.irongoatbrewing.com', https://www.onetreehardcider.com/
         # URL, newURL, endOfURL, brewery, name, Type, ABV, IBU, description
-        self.baseURL = (PubWebsite('http://www.irongoatbrewing.com', 
+        self.baseURL = (PubWebsite( 'https://www.onetreehardcider.com/', #URL
+                                    "href=\"(.*?)\"", #newURL
+                                    'data-href=":beer" href=".*>(1|2|3|4|5|6|7|8|9|0).(.*)</a>\s<em', #endOfURL
+                                    '(<title>)(One Tree Cider House)', #brewery group(2)
+                                    'data-href=":beer" href=".*>(1|2|3|4|5|6|7|8|9|0).(.*)</a>\s<em', #name group(2)
+                                    'data-href=":beer" href=".*>\s<em>(.*)\s-', #type group(1)
+                                    '<span>(.*?)%\s(ABV)\s•\s(.*?)IBU.*', #ABV group(1), IBU group(2)
+                                    '', #IBU is included in ABV RegEx
+                                    '----------------------'), PubWebsite('http://www.irongoatbrewing.com', 
                                     "<a href=\"(.*?)\"", #newURL
                                     "<div\sclass=\"cube\">", #endOfURL
-                                    '(Our Beers \|)\s*(Iron Goat Brewing)', #brewery group(1)
-                                    '<h3><a\s*?(.*?)>(.*?)</a>', #name group(1)
-                                    '', #type
+                                    '(Our Beers \|)\s*(Iron Goat Brewing)', #brewery group(2)
+                                    '<h3><a\s*?(.*?>)(.*?)</a>', #name group(2)
+                                    '------------------------------------------', #type
                                     '<div\sclass=\"cube\">\s*?(\w*?)\s*?<div class=\"value\">(.*?)</div>\s*?(.*?)\s*?</div>', #ABV 
                                     '',
-                                    '(Bitterness Units\s*?</div>\s*?<br>)\s*(.*)(\s*?</div>)'), PubWebsite( 'https://www.onetreehardcider.com/', #URL
-                                    "href=\"(.*?)\"", #newURL
-                                    "data-href=\":beer\" href=\"https:", #endOfURL
-                                    '<title>(One Tree Cider House)', #brewery group(1)
-                                    'data-href=":beer" href="https:.*?>.*?\s(.*?)<', #name group(1)
-                                    'data-href=":beer" href="https:.*?>.*?\s<em>(.*?)-.*?</em', #type group(1)
-                                    '<h6><span>(.*?)(ABV)\s•\s(.*?)IBU', #ABV group(1), IBU group(2)
-                                    '', #IBU is included in ABV RegEx
-                                    '')) # get a new PubWebsite object for each website to be crawled
+                                    '(Bitterness Units\s*?</div>\s*?<br>)\s*(.*)(\s*?</div>)')) # get a new PubWebsite object for each website to be crawled
         self.checkURL = checkURL
         self.validURL = validURL
 

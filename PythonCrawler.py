@@ -3,7 +3,7 @@ import re
 from urllib.parse import urlparse
 from BeerClass import Beers, Websites, PubWebsite
 
-beer_type = {'Stout', 'IPA', 'ESB', 'Blonde', 'Scotch Ale', 'Sour Ale'}
+beer_type = {'Stout', 'IPA', 'ESB', 'Blonde', 'Scotch Ale', 'Sour Ale', 'Porter', 'Rye-ot', 'Rye', 'Ale', }
 
 # list of drink objects
 drinks = list()
@@ -96,7 +96,7 @@ def findInfo(newUrl_, endofURL_, brewery_, name_, Type_, ABV_, IBU_, description
     #go through new list of urls and start getting content
     for val in newUrl_:
         #open the url
-        x = requests.get(val)
+        x = requests.get(val, headers = {'User-agent': 'your bot 0.1'})
 
         open('url.txt', 'wb').write(x.content)
 
@@ -112,31 +112,37 @@ def findInfo(newUrl_, endofURL_, brewery_, name_, Type_, ABV_, IBU_, description
         #each html will have the same brewery the drinks are from, so this is set ahead of time.
         beer = Beers()
 
-        # BREWERY
-        breweryy = re.search(brewery_, response)
-        brewery = breweryy.group(1)
 
+
+        # BREWERY check
+        breweryy = re.search(brewery_, response)
+        brewery = breweryy.group(2)  
         while d:
             i = 0
             
-            # NAME
+            # NAME check
             if len(beer.__getName__()) == 0:
                 name = re.search(name_, response)
-                beer.setName(name.group(1))
+                beer.setName(name.group(2))
 
             # TYPE          
             while len(beer.__getBeerType__()) == 0:
                 f = re.search(Type_, response)
-                if f.group(1):
+
+                # this is to find the cider type
+                if f:
                     fg = f.group(1)
                     if fg == "Cider":
-                        beer.setBeerType(f)  
+                        beer.setBeerType(f.group(1))  
+                        break
+
+                # this is to find all other types        
                 for bt in beer_type:
                     #if a beertype exists end this loop
                     if len(beer.__getBeerType__()) != 0:
                         #print('----------------------------------------------------------------------------')
                         break
-                    stringname = str(name.group(1))
+                    stringname = str(name.group(2))
                     while (stringname): 
                         #print (stringname, bt)
                         #if the beer type os found add it
@@ -145,7 +151,7 @@ def findInfo(newUrl_, endofURL_, brewery_, name_, Type_, ABV_, IBU_, description
                             break
                         #concatenate string, removing first word in string
                         else:
-                            whitespace = re.search("^([\w\-]+)|&", stringname)
+                            whitespace = re.search("^([\w\-]+)|&*", stringname)
                             e = whitespace.end()
                         stringname = stringname[1+e:]
             
@@ -184,7 +190,7 @@ def findInfo(newUrl_, endofURL_, brewery_, name_, Type_, ABV_, IBU_, description
                     else:
                         beer.setBeerDescription(description.group(2))
 
-                beer.setBrewery(brewery.group(2))                    
+                beer.setBrewery(brewery)                    
                 drinks.append(beer)
                 beer = Beers()   
 

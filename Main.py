@@ -10,7 +10,7 @@ for a in website.baseURL:
     urls = Crawler(a.URL, a.newURL)
     drinkInfo = findInfo(urls, a.endOfURL, a.brewery, a.name, a.Type, a.ABV, a.IBU, a.description)
     returnInfo(drinkInfo)
-    print("=================================================================================================")
+    print("==================================================================================")
 
 
 

@@ -104,6 +104,72 @@
                                 <div class="col-sm-3">
                                                                     </div>
                                 <div class="col-sm-9">
+                                    <h3><a href="/beer/quiet-rye-ot">Quiet Rye-ot</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">5.3</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">42</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>This rye pale has floral aromatic notes and hints of honey. It's crisp and clean with notes of fresh baked bread and citrus with a rye finish.</p>
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/bob-s-your-uncle-brown-porter">Bob's Your Uncle Brown Porter</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">6.2</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">28</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>Bob's Your Uncle Brown Porter is a milder, sweeter form of porter than Robust Porter, but not as mild as a brown ale. Brown porters typically have more complex caramel flavors and less of a roasted flavor than robust porters. It has a medium body and is well balanced between the malt flavor and hop bitterness. A very drinkable, well balanced dark ale without the roast barley flavor of stout.</p>
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/2nd-avenue-saison-farmhouse-ale">2nd Avenue Saison Farmhouse Ale</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">6.4</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">30</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>Sweet, slightly dry with heavy fruit and light tangy flavor. </p>
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
                                     <h3><a href="/beer/buzzsaw-mcthunder-juicy-ipa">Buzzsaw McThunder Juicy IPA</a></h3>
 
                                                                             <div class="cube">
@@ -140,6 +206,28 @@
                                         </div>
                                                                         <br>
                                                                             <p>Our brewery was founded on a mutual love of old brick, shiny steel and hops. This slightly hazy, gold-colored IPA has big, dank pineapple and grapefruit aromas along with tropical and citrus fruit flavors. Finishing dry, with a pleasant lingering bitterness, Brick and Steel IPA is a beer as solid as its name.</p>
+                                                                    </div>
+                            </div>
+
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/pauls-pale-ale">Paul's Pale Ale</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">5.2</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">43</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>This ale strikes a balance between malt and hops while retaining the characteristics of an American Pale Ale. A blend of coveted Citra and Australian Sylva hops lends delicious aroma and flavor to this refreshing ale.</p>
                                                                     </div>
                             </div>
 
@@ -276,33 +364,11 @@
                                 <div class="col-sm-3">
                                                                     </div>
                                 <div class="col-sm-9">
-                                    <h3><a href="/beer/cap-n-kidd-scotch-ale">Cap'n Kidd Scotch Ale</a></h3>
+                                    <h3><a href="/beer/passion-fruit-guava-sour-ale">Passion Fruit Guava Sour Ale</a></h3>
 
                                                                             <div class="cube">
                                             ABV
-                                            <div class="value">7.5</div>
-                                            Alcohol % by Volume
-                                        </div>
-                                                                                                                <div class="cube">
-                                            IBU
-                                            <div class="value">37</div>
-                                            Bitterness Units
-                                        </div>
-                                                                        <br>
-                                                                            This Wee Heavy is coppery brown, rich and malty with a hint of sweetness from the caramelization process and herbal tones from a heather addition. This popular fall seasonal is not to be missed.
-                                                                    </div>
-                            </div>
-
-                        
-                            <div class="row listing-row">
-                                <div class="col-sm-3">
-                                                                    </div>
-                                <div class="col-sm-9">
-                                    <h3><a href="/beer/blackberry-apricot-sour-ale">Blackberry Apricot Sour Ale</a></h3>
-
-                                                                            <div class="cube">
-                                            ABV
-                                            <div class="value">6.5</div>
+                                            <div class="value">5.2</div>
                                             Alcohol % by Volume
                                         </div>
                                                                                                                 <div class="cube">
@@ -311,12 +377,36 @@
                                             Bitterness Units
                                         </div>
                                                                         <br>
-                                                                            An American Style Sour with Blackberry and Apricot. It finishes crisp and clean with a subtle fruit finish.
+                                                                            <p>Passion Fruit Guava Sour blasts you with fruit aroma and follows up with an exciting punch of fruit flavors. A nice balance of acidity, residual sugars, and salinity from the passion fruit. Beyond the flavors of the passion fruit and guava are subtle notes of peaches and lemon.</p>
                                                                     </div>
                             </div>
 
                                                 <br>
-                                                                                                                                                    
+                                                                                                                                                            <h2 class="category-h">One-off/Specialty</h2>
+                        
+                            <div class="row listing-row">
+                                <div class="col-sm-3">
+                                                                    </div>
+                                <div class="col-sm-9">
+                                    <h3><a href="/beer/low-key-norwegian-style-pale-ale">Low-Key *Experimental* Pale Ale</a></h3>
+
+                                                                            <div class="cube">
+                                            ABV
+                                            <div class="value">4.9</div>
+                                            Alcohol % by Volume
+                                        </div>
+                                                                                                                <div class="cube">
+                                            IBU
+                                            <div class="value">7</div>
+                                            Bitterness Units
+                                        </div>
+                                                                        <br>
+                                                                            <p>This experimental beer utilizes Loki Kveik yeast from Imperial. This creates a great platform to show off its versatility and uniqueness while letting the hops shine through. Aromatic notes of passion fruit, grapefruit, citrus, and dankness. You will find tastes of grapefruit, lychee, and pineapple with a crisp lemon peel bitterness.</p>
+                                                                    </div>
+                            </div>
+
+                                                <br>
+                                    
 
             </div>
 
