@@ -3,7 +3,7 @@ import re
 from urllib.parse import urlparse
 from BeerClass import Beers, Websites, PubWebsite
 
-beer_type = {'Stout', 'IPA', 'ESB', 'Blonde', 'Scotch Ale', 'Sour Ale', 'Porter', 'Rye-ot', 'Rye', 'Ale', }
+beer_type = {'Stout', 'IPA', 'ESB', 'Blonde', 'Scotch Ale', 'Sour Ale', 'Porter', 'Rye-ot', 'Rye', 'Ale', 'Pale Ale' }
 
 # list of drink objects
 drinks = list()
@@ -69,8 +69,6 @@ def Crawler(URL, partURL):
 
 
 
-
-
         #try:
         #    newUrl = URL + val
         #    x = requests.get(newUrl) # https://stackoverflow.com/questions/16778435/python-check-if-website-exists
@@ -123,7 +121,11 @@ def findInfo(newUrl_, endofURL_, brewery_, name_, Type_, ABV_, IBU_, description
             # NAME check
             if len(beer.__getName__()) == 0:
                 name = re.search(name_, response)
-                beer.setName(name.group(2))
+                if name.group(2)[0] == " ":
+                    edit_name = name.group(2)[1:]
+                    beer.setName(edit_name)
+                else:
+                    beer.setName(name.group(2))
 
             # TYPE          
             while len(beer.__getBeerType__()) == 0:
@@ -164,7 +166,7 @@ def findInfo(newUrl_, endofURL_, brewery_, name_, Type_, ABV_, IBU_, description
                 #this is only for one Tree
                 if ibu_or_abv.group(2) == "ABV":
                     beer.setABV(ibu_or_abv.group(1))
-                    beer.setIBU(ibu_or_abv.group(3))
+                    beer.setIBU("0")
                 
             if len(beer.__getIBU__()) == 0:
                 if ibu_or_abv.group(1) == "IBU":
@@ -189,6 +191,9 @@ def findInfo(newUrl_, endofURL_, brewery_, name_, Type_, ABV_, IBU_, description
                         beer.setBeerDescription(edit)
                     else:
                         beer.setBeerDescription(description.group(2))
+
+                else:
+                    beer.setBeerDescription("No description given")
 
                 beer.setBrewery(brewery)                    
                 drinks.append(beer)

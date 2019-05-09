@@ -1,6 +1,6 @@
 from PythonCrawler import Crawler, findInfo, returnInfo
 from BeerClass import Beers, Websites, PubWebsite
-#from database import main
+from database import main, delete
 
 urls = set()
 drinkInfo = set()
@@ -13,7 +13,7 @@ for a in website.baseURL:
     print("==================================================================================")
 
 
+delete()
 
-
-#for i in drinkInfo:
-#    main(i)
+for i in drinkInfo:
+    main(i)

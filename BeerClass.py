@@ -13,7 +13,7 @@ class Websites:
                                     "href=\"(.*?)\"", #newURL
                                     'data-href=":beer" href=".*>(1|2|3|4|5|6|7|8|9|0).(.*)</a>\s<em', #endOfURL
                                     '(<title>)(One Tree Cider House)', #brewery group(2)
-                                    'data-href=":beer" href=".*>(1|2|3|4|5|6|7|8|9|0).(.*)</a>\s<em', #name group(2)
+                                    'data-href=":beer" href=".*>(1|2|3|4|5|6|7|8|9|0)..(.*)</a>\s<em', #name group(2)
                                     'data-href=":beer" href=".*>\s<em>(.*)\s-', #type group(1)
                                     '<span>(.*?)%\s(ABV)\s•\s(.*?)IBU.*', #ABV group(1), IBU group(2)
                                     '', #IBU is included in ABV RegEx

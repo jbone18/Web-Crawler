@@ -30,7 +30,7 @@ while row:
 
 def insert_drink(BeerType, BeerName, Brewery, IBU, ABV, BeerDesc):
     query = "INSERT INTO dbo.Beer(BeerType, BeerName, Brewery, IBU, ABV, BeerDesc) VALUES(?, ?, ?, ?, ?, ?)"
-  
+   
     #args info comes from crawler
     args = (BeerType, BeerName, Brewery, IBU, ABV, BeerDesc)
        
@@ -49,6 +49,7 @@ def insert_drink(BeerType, BeerName, Brewery, IBU, ABV, BeerDesc):
         cursor.execute(query, args)
 
         cnxn.commit()
+    
  
     finally:
         cursor.close()
@@ -56,7 +57,27 @@ def insert_drink(BeerType, BeerName, Brewery, IBU, ABV, BeerDesc):
  
 def main(beer):
                 #(      BeerType,             BeerName,             Brewery,               IBU,              ABV,                  BeerDesc)
-   insert_drink(beer.__getBeerType__(),beer.__getName__(), beer.__getBrewery__(), beer.__getIBU__(), beer.__getABV__(), beer.__getBeerDescription__())
- 
-#if __name__ == '__main__':
- #   main(beer)
+    insert_drink(beer.__getBeerType__(),beer.__getName__(), beer.__getBrewery__(), beer.__getIBU__(), beer.__getABV__(), beer.__getBeerDescription__())
+    
+def delete():
+    query = "DELETE FROM Beer WHERE BeerID > 1"
+
+    try:
+        # connecting to the database
+        server = 'tappedin.database.windows.net'
+        database = 'TappedIn'
+        username = 'cfrench23'
+        password = 'Sh33pG1rl!0987'
+        driver= '{ODBC Driver 17 for SQL Server}'
+        cnxn = pyodbc.connect('DRIVER='+driver+';SERVER='+server+';PORT=1433;DATABASE='+database+';UID='+username+';PWD='+ password)
+
+        cursor = cnxn.cursor()
+
+        print(query)
+        cursor.execute(query)
+
+        cnxn.commit()
+    
+    finally:
+        cursor.close()
+        cnxn.close()
