@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <style> 
+            body {background-color: rgb(243, 233, 233); text-align:center; font-size: 20px}
+            article{text-align:center; background-color:rgb(247, 221, 221)}
+            td{font-family: 'Times New Roman', 'Times New Roman', Times, serif; text-align: center; font-size: 15px; word-break: keep-all;}
+            table
+            {   font-family: 'Times New Roman', Times, serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            header{background-color: rgb(170, 159, 159);}
+        </style>
+       <title> Spokane Brewery's</title>
+    </head>
+<body> 
+    <header>   
+        <strong style= 'font-size: 50px'>
+        <p> 
+            Spokane Brewery's
+        </p></strong> 
+     </header>
+                 
+
+    <article>
+        <p>
+            This web app focuses on creating a unique enviornment that 
+            allows people 21 and over the ability to discover new and 
+            old drinks from brewery's in the Spokane area. Click any 
+            image to go to that locations current drink rotation.
+         </p>
+    </article>
+
+
+
+<table>
+    <td style= 'background-color:rgb(253, 194, 194)'>
+        <p>
+            <strong style= 'font-size: 30px';>Growler Guys</strong><br></br>
+            Over 40 drinks on Tap! 
+        </p>
+        <a href = "https://www.thegrowlerguys.com/whats-on-tap/" target="_blank">
+        <img src= "GrowlerGuysImage.jpg" height= 200px width = 200px alt = "Growler Guys">  </a>     
+    </td>
+    
+
+    <td style = 'background-color: blanchedalmond'>
+        <p>
+            <strong style= 'font-size: 30px';>Iron Goat</strong><br></br>
+            Named after an Iron Goat
+        </p>
+        <a href= "http://www.irongoatbrewing.com/brewery" target= "_blank">
+        <img src= "IronGoatImage.jpg" height= 200px width = 200px alt = "Iron Goat"></a>
+    </td>
+
+
+    <td style = 'background-color: greenyellow'>
+        <p>
+            <strong style= 'font-size: 30px';>One Tree</strong><br></br>
+            Best Ciders in Spokane!
+        </p>
+        <a href= "https://www.onetreehardcider.com/" target= "_blank">
+        <img src= "OneTree.jpg" height= 200px width = 200px alt = "One Tree"></a>
+    </td>
+</table>
+</body>
+
+<p>
+    Hey look, it's Carl and Jordan!
+</p>
+
+<img src= "Carl.jpg" height= 100px width = 100px alt = "Carl is gone">
+<img src= "Jordan.jpg" height= 100px width = 100px alt = "Jordan is gone">
+
+</html>

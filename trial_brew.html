@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html>
+    <link rel="icon" href="Logo.png">
+    <link rel = "stylesheet" type = "text/css" href = "trial.css">
+    <head>
+        <style>
+            #intro {box-sizing: content-box;  
+                            width: 800px;
+                            height: 95px;
+                            padding: 30px;  
+                            border: 10px solid black;
+                            align-content: center
+                        }
+                .center {margin: auto;
+                        width: 60%;
+                        border: 3px solid #73AD21;
+                        padding: 10px;
+                        }
+
+            /* Slideshow container */
+            .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            }
+
+            /* Next & previous buttons -> this changes look.*/ 
+            .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+            }
+            /* Position the "left button" to the right */
+            .prev{
+                left:0;
+                border-radius:3px 0 0 3px;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+            }
+
+            /* Caption text */
+            .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+            }
+
+            /* Number text (1/4 etc) */
+            .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+            }
+
+            /* The dots/bullets/indicators */
+            .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            }
+
+            .active, .dot:hover {
+            background-color: #717171;
+            }
+
+            /* Fading animation */
+            .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+            }
+
+            @-webkit-keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+            }
+
+            @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+            }
+
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+            .prev, .next,.text {font-size: 11px}
+            }
+    </style>
+    </head>
+    
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <img src = Logo.png img-align = center>
+                <p>    
+                    Welcome to Tapped In Spokane
+                    <br>
+                    <br>
+                    <br>
+                    Your One Stop Shop For All The Brewery News In Spokane
+                </p>
+                <a href="brew_user.html">Register With Us</a>
+            </header>
+            <article class="main">
+                <table>
+                    <td>
+                        <p>
+                            <h1>Growler Guys</h1>
+                            Over 40 drinks on Tap! 
+                        </p>
+                        <a href = "https://www.thegrowlerguys.com/on-tap-location/spokane-washington-newport-hwy/" target="_blank">
+                        <img src= "GrowlerGuysImage.jpg" height= 200px width = 200px alt = "Growler Guys">  </a>     
+                    </td>
+                    <td>
+                        <p>
+                            Following in the footsteps of Europeans and East coasters, the Growler Guys opened its doors in early 2012. 
+                            Word traveled fast among craft beer enthusiasts and general folks who wanted to test the concept. 
+                            The concept is pretty cool: Our first growler fill station in Bend, Oregon at the Stop and Go Shell gas station
+                            has 45 of the most varied local craft beer favorites, and not-so-local brews, on tap for you to choose from and 
+                            take home in either a 32-oz or 64-oz growler.
+                        </p>
+                    </td>
+                </table>
+                <table>
+                    <td>
+                        <p>   
+                            With humble beginnings in a locked shack hidden in the middle of the woods, Iron Goat has always kept a personal, 
+                            hands-on approach to their beer. Constant experimentation with hop choices and seasonal ingredients has kept their 
+                            passions strong. In an effort to ensure flavors are at their best, they constantly taste test the batches. 
+                            Some days that's all they do, because precisionishness is a priority. Iron Goat has crafted over 150 distinct beers 
+                            keeping these values close, and their pint glasses closer.
+                        </p>
+                    </td>
+                    <td>
+                            <h1>Iron Goat</h1>
+                            <strong style = "font-size: 75%">Named after the Iron Goat</strong>
+                        <a href= "http://www.irongoatbrewing.com/our-beers" target= "_blank">
+                        <img src= "IronGoatImage.jpg" height= 200px width = 200px alt = "Iron Goat"></a>
+                    </td>
+                </table>
+                <table>
+                        <td>
+                            <p>
+                                <h1>One Tree</h1>
+                                Best Ciders in Spokane! 
+                            </p>
+                            <a href= "https://untappd.com/v/one-tree-cider-house/6394441" target= "_blank">
+                                <img src= "OneTree.jpg" height= 200px width = 200px alt = "One Tree"></a>   
+                        </td>
+                        <td>
+                            <p>
+                                One Tree Hard Cider is made from locally grown ingredients right here in Washington State. When we began 
+                                this journey we wanted to use a wide variety of ingredients and flavors in our hard ciders to show that it 
+                                starts with apples, but it doesn't end there! Whether you like your cider sweet or tart, you'll find a One 
+                                Tree Hard Cider just for you.
+                            </p>
+                        </td>
+                    </table>
+                <br>
+                <hr>
+                <br>
+                <!--Code provided by W3Schools Tutorial-->
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="Sketch_1.png" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="Sketch_2.png" style="width:100%">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="Sketch_3.png" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="Sketch_4.png" style="width:100%">
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                </div> 
+
+                <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) 
+                    {
+                    showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) 
+                    {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {slideIndex = 1}    
+
+                    if (n < 1) {slideIndex = slides.length}
+
+                    for (i = 0; i < slides.length; i++) 
+                    {
+                        slides[i].style.display = "none";  
+                    }
+                    for (i = 0; i < dots.length; i++) 
+                    {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    }
+                </script>
+
+                <div class = center style = "text-align: center">
+                    <p>
+                        Hey look, it's Carl and Jordan!
+                    </p>
+
+                    <img src= "Carl.jpg" height= 100px width = 100px img-align = center alt = "Carl is gone">
+                    <img src= "Jordan.jpg" height= 100px width = 100px img-align = center alt = "Jordan is gone">
+                    <p>
+                        <a href="bio.html" target="parent" center>Check Us Out</a>
+                        <a href="brew_drinks.php" target="new" center>Drinks Page</a>
+                    </p>
+                </div>
+            </article>
+            <aside class="aside aside-1">Aside 1</aside>
+            <aside class="aside aside-2">Aside 2</aside>
+            <footer class="footer">
+                <p style="color:white; font-size: 100%;">
+                    Footer
+                </p>
+            </footer>
+        </div>
+
+
+    </body>
+
+</html>

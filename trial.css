@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .header {
+    background-image: url("SRP_Orange.jpg");
+    background-size: cover;
+    height: fit-content;
+    font-size: 100%;
+  }
+  
+  .footer {
+    background: url("two-pints-beer-main.jpg");
+    background-size: auto;
+    height: fit-content;
+  }
+  
+  .main {
+    text-align: left;
+    background: whitesmoke;
+  }
+  
+  .aside-1 {
+    background: rgb(89, 204, 23);
+  }
+  
+  .aside-2 {
+    background: rgb(21, 218, 218);
+  }
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+    .header {font-size: 200%}
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .header  { order: 0; font-size: 400%; height: fit-content; background-size: cover;}
+    .aside-1 { order: 1; } 
+    .main    { order: 2; font-size: 175%;}
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+  body {
+    padding: 0; 
+  }
